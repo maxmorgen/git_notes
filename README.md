@@ -70,7 +70,7 @@ A list of my commonly used Git commands CASE SENSITIVE)
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 
 ### Terminal Commands
-
+| Command | Description |
 | `pwd` | "print working directory" = Displays current path  |
 | `ls` | The ls command will show you ('list') the files in your current directory  |
 | `cd /` | Navigate into the root directory (ChromeOS downloads = ~/storage/downloads) |
