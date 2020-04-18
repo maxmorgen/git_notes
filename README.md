@@ -12,6 +12,15 @@ A list of my commonly used Git commands CASE SENSITIVE)
 6. git commit -m "message"
 7. git push -u origin [branch_name]
 
+### SYNC TO ORIGIN REPO ON GITHUB FROM LOCAL REPO
+1. Navigate to local repo directory (see above)
+2. `git checkout [branch_name]` (likely "master")
+3. (OPTIONAL) `git remote -v` to verify if origin repo is remote repository
+4. (OPTIONAL) If not listed, `git remote add upstream [origin repo URL]
+5. `git fetch upstream` to sync local repo with upstream origin repo
+6. `git merch upstream/master` to merge upstream and master
+7. You may be asked to enter comment
+8. `git push` to push local changes to finish
 
 ### Getting & Creating Projects
 
