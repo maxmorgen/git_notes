@@ -1,7 +1,17 @@
 Git Commands
 ============
 
-_A list of my commonly used Git commands CASE SENSITIVE)
+A list of my commonly used Git commands CASE SENSITIVE)
+
+### STARTING OUT FROM EXISTING GITHUB REPOSITORY
+1. Right click folder > "Git Bash Here" OR Git bash > "cd [C:/path]"
+2. git clone [project URL]
+3. Make changes in project
+4. Right click project folder > "Git Bash Here" OR Git bash > "cd [C:/project_path]"
+5. git add -A (or only specific changes)
+6. git commit -m "message"
+7. git push - origin master
+
 
 ### Getting & Creating Projects
 
