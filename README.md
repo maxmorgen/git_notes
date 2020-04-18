@@ -71,6 +71,7 @@ A list of my commonly used Git commands CASE SENSITIVE)
 
 ### Terminal Commands
 | Command | Description |
+| ------- | ----------- |
 | `pwd` | "print working directory" = Displays current path  |
 | `ls` | The ls command will show you ('list') the files in your current directory  |
 | `cd /` | Navigate into the root directory (ChromeOS downloads = ~/storage/downloads) |
