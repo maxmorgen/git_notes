@@ -12,7 +12,7 @@ A list of my commonly used Git commands CASE SENSITIVE)
 6. git commit -m "message"
 7. git push -u origin [branch_name]
 
-### SYNC TO ORIGIN REPO ON GITHUB FROM LOCAL REPO
+### SYNC TO LOCAL REPO TO MATCH ORIGIN REPO ON GITHUB
 1. Navigate to local repo directory (see above)
 2. `git checkout [branch_name]` (likely "master")
 3. (OPTIONAL) `git remote -v` to verify if origin repo is remote repository
