@@ -10,7 +10,7 @@ A list of my commonly used Git commands CASE SENSITIVE)
 4. Right click project folder > "Git Bash Here" OR Git bash > "cd [C:/project_path]"
 5. git add -A (or only specific changes)
 6. git commit -m "message"
-7. git push - origin master
+7. git push -u origin [branch_name]
 
 
 ### Getting & Creating Projects
