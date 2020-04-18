@@ -4,10 +4,10 @@ Git Commands
 A list of my commonly used Git commands CASE SENSITIVE)
 
 ### STARTING OUT FROM EXISTING GITHUB REPOSITORY
-1. Right click folder > "Git Bash Here" OR Git bash > "cd [C:/path]"
+1. Right click folder > "Git Bash Here" OR Git bash > "cd [C:/path] OR [~/project path]"
 2. git clone [project URL]
 3. Make changes in project
-4. Right click project folder > "Git Bash Here" OR Git bash > "cd [C:/project_path]"
+4. Right click project folder > "Git Bash Here" OR Git bash > "cd [C:/project_path] OR [~/project path]"
 5. git add -A (or only specific changes)
 6. git commit -m "message"
 7. git push -u origin [branch_name]
@@ -68,3 +68,12 @@ A list of my commonly used Git commands CASE SENSITIVE)
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### Terminal Commands
+
+| `pwd` | "print working directory" = Displays current path  |
+| `ls` | The ls command will show you ('list') the files in your current directory  |
+| `cd /` | Navigate into the root directory (ChromeOS downloads = ~/storage/downloads) |
+| `cd ~` | Navigate into your home directory |
+| `cd ..` | Navigate up one directory level |
+| `rm -r [/directory_path]` | Delete a directory and all of its contents recursively |
